@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.github.nullfs</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>nullfs</string>
+    <key>CFBundlePackageType</key>
+    <string>fs</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+	<key>FSPersonalities</key>
+	<dict>
+		<key>UFSD_NTFS</key>
+		<dict>
+			<key>FSMountExecutable</key>
+			<string>mount_null</string>
+			<key>FSName</key>
+			<string>Null Filesystem</string>
+			<key>FSSubType</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -113,7 +113,7 @@ main(argc, argv)
 
 	args.target = target;
 
-	if (mount("loopback", argv[1], mntflags, &args))
+	if (mount("nullfs", argv[1], mntflags, &args))
 		err(1, NULL);
 	exit(0);
 }
