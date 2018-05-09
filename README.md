@@ -10,6 +10,9 @@ I often regard it as shame, that Apple *believes that BSD stackable file system
 doesn't fit Mac OS X*, as I find it very lucrative under FreeBSD and can't think
 of anything similar in OSX.
 
+See, for example,
+[here](https://developer.apple.com/library/content/qa/qa1242/_index.html).
+
 Also, another point of regret is that it's apparently read-only.
 
 Alas, all the VNOPS_* functions are kernel-private entities.
